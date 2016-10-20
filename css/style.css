@@ -1,30 +1,37 @@
-* {
+/** {
 -webkit-box-sizing: border-box;
    -moz-box-sizing: border-box;
         box-sizing: border-box;
-}
+}*/
+
 body {
   background-color: black;
+  overflow: hidden;
 }
 
 img {
   top: 50px;
   max-width:100%;
   height:auto;
-  position: relative;
+  position: absolute;
 }
+
 h1 {
-  font: bold 75px Helvetica, Sans-Serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 75px;
+  font-weight: bold;
   position: relative;
   margin: 0;
-  padding: 0;
+  padding: 30px 0;
   top: 0;
-  left: 10;
+  left: 0;
   width: 100%;
   color: ghostwhite;
   z-index: 10;
 }
+
 a {
+  font-family: 'Source Sans Pro', sans-serif;
   padding: 10px;
   color: ghostwhite;
   z-index: 50;
@@ -32,26 +39,71 @@ a {
 a:hover {
   color: cyan;
 }
+
 #nerd {
-  position: absolute;;
-  top: 75px;
-  left: 10px;
-  font: 25px Helvetica, Sans-Serif;
-  color: ghostwhite;
-  z-index: 100;
-}
-#developer {
   position: absolute;
-  top: 75px;
-  left: 220px;
-  font: bold 25px Helvetica, Sans-Serif;
+  top: 15%;
+  left: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 25px;
   color: ghostwhite;
   z-index: 100;
 }
 
 #navbar {
   position: absolute;
-  top: 0;
-  left: 50px;
+  top: 1%;
+  left: 0;
   z-index: 100;
+}
+
+#about{
+  position: absolute;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  bottom: 22%;
+  left: 20%;
+  color: ghostwhite;
+  border: none;
+  background: transparent;
+  outline: none;
+  z-index: 100;
+}
+#about:hover {
+  color: black;
+}
+
+#contact{
+  position: absolute;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  bottom: 27%;
+  left: 40%;
+  color: black;
+  border: none;
+  background: transparent;
+  outline: none;
+  z-index: 100;
+}
+#contact:hover {
+  color: gainsboro;
+}
+
+#projects{
+  position: absolute;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 45px;
+  font-weight: bold;
+  bottom: 23%;
+  left: 70%;
+  color: ghostwhite;
+  border: none;
+  background: transparent;
+  outline: none;
+  z-index: 100;
+}
+#projects:hover {
+  color: black;
 }
