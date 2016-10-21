@@ -78,7 +78,7 @@ a:hover {
   margin-left: 250px;
 }
 
-#contact {
+#contactme {
   margin-left: 250px;
 }
 
@@ -89,7 +89,7 @@ a:hover {
   z-index: 100;
 }
 
-#about{
+#aboutlink{
   position: absolute;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 45px;
@@ -102,11 +102,11 @@ a:hover {
   outline: none;
   z-index: 100;
 }
-#about:hover {
+#aboutlink:hover {
   color: black;
 }
 
-#contact{
+#contactlink{
   position: absolute;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 45px;
@@ -120,11 +120,11 @@ a:hover {
   outline: none;
   z-index: 100;
 }
-#contact:hover {
+#contactlink:hover {
   color: gainsboro;
 }
 
-#projects{
+#projectslink{
   position: absolute;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 45px;
@@ -137,7 +137,7 @@ a:hover {
   outline: none;
   z-index: 100;
 }
-#projects:hover {
+#projectslink:hover {
   color: black;
 }
 @media (max-width: 420px) {
@@ -153,16 +153,16 @@ a:hover {
   #nerd {
     font-size: 39px;
   }
-  #about{
+  #aboutlink{
     left: 0;
     bottom: 400px;
   }
-  #contact {
+  #contactlink {
     color: ghostwhite;
     left: 0;
     bottom: 325px;
   }
-  #projects {
+  #projectslink {
     left: 0;
     bottom: 250px;
   }
