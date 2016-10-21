@@ -9,13 +9,6 @@ body {
   overflow: hidden;
 }
 
-img {
-  top: 50px;
-  max-width:100%;
-  height:auto;
-  position: absolute;
-}
-
 h1 {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 75px;
@@ -29,6 +22,15 @@ h1 {
   color: ghostwhite;
   z-index: 10;
 }
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: ghostwhite;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: ghostwhite;
+}
 
 a {
   font-family: 'Source Sans Pro', sans-serif;
@@ -40,9 +42,23 @@ a:hover {
   color: cyan;
 }
 
+.container {
+  position: relative;
+  top: 150px;
+  width: 100%;
+  height: 100%;
+}
+
+#pacman {
+  top: 50px;
+  max-width:100%;
+  height:auto;
+  position: absolute;
+}
+
 #nerd {
   position: absolute;
-  top: 15%;
+  top: 100px;
   left: 10px;
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 25px;
@@ -50,9 +66,25 @@ a:hover {
   z-index: 100;
 }
 
+#portrait {
+  position: absolute;
+  top: 50px;
+  margin-left: 50px;
+  width: 150px;
+  border-radius: 25%;
+}
+
+#aboutme {
+  margin-left: 250px;
+}
+
+#contact {
+  margin-left: 250px;
+}
+
 #navbar {
   position: absolute;
-  top: 1%;
+  top: 8px;
   left: 0;
   z-index: 100;
 }
@@ -79,9 +111,10 @@ a:hover {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 45px;
   font-weight: bold;
+  outline-color: invert;
   bottom: 27%;
   left: 40%;
-  color: black;
+  color: darkslategrey;
   border: none;
   background: transparent;
   outline: none;
@@ -106,4 +139,31 @@ a:hover {
 }
 #projects:hover {
   color: black;
+}
+@media (max-width: 420px) {
+  h1 {
+    white-space: nowrap;
+    color: ghostwhite;
+    font-size: 65px;
+    top: 10px;
+  }
+  img {
+    display: none;
+  }
+  #nerd {
+    font-size: 39px;
+  }
+  #about{
+    left: 0;
+    bottom: 400px;
+  }
+  #contact {
+    color: ghostwhite;
+    left: 0;
+    bottom: 325px;
+  }
+  #projects {
+    left: 0;
+    bottom: 250px;
+  }
 }
