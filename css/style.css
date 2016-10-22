@@ -1,9 +1,3 @@
-/** {
--webkit-box-sizing: border-box;
-   -moz-box-sizing: border-box;
-        box-sizing: border-box;
-}*/
-
 body {
   background-color: black;
   overflow: hidden;
@@ -22,7 +16,7 @@ h1 {
   color: ghostwhite;
   z-index: 10;
 }
-h3 {
+h3, h4 {
   font-family: 'Source Sans Pro', sans-serif;
   color: ghostwhite;
 }
@@ -47,6 +41,9 @@ a:hover {
   top: 150px;
   width: 100%;
   height: 100%;
+}
+.contactformat {
+  margin-left: 10px;
 }
 
 #pacman {
@@ -79,7 +76,15 @@ a:hover {
 }
 
 #contactme {
-  margin-left: 250px;
+  float: left;
+  position: relative;
+  padding: 0 20px;
+  max-width: 340px;
+}
+
+#contactdetails {
+  float: left;
+  padding: 0 20px;
 }
 
 #navbar {
@@ -140,30 +145,44 @@ a:hover {
 #projectslink:hover {
   color: black;
 }
-@media (max-width: 420px) {
+@media (max-width: 450px) {
+  body {
+    overflow: scroll;
+  }
   h1 {
     white-space: nowrap;
     color: ghostwhite;
     font-size: 65px;
     top: 10px;
   }
-  img {
+  #pacman {
     display: none;
   }
   #nerd {
     font-size: 39px;
   }
+  #portrait {
+    position: relative;
+    top: -50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #aboutme {
+    margin-left: 20px;
+    padding: 0 20px;
+  }
   #aboutlink{
     left: 0;
-    bottom: 400px;
+    bottom: 40vh;
   }
   #contactlink {
     color: ghostwhite;
     left: 0;
-    bottom: 325px;
+    bottom: 30vh;
   }
   #projectslink {
     left: 0;
-    bottom: 250px;
+    bottom: 20vh;
   }
 }
