@@ -16,6 +16,11 @@ h1 {
   color: ghostwhite;
   z-index: 10;
 }
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 40px;
+  color: ghostwhite;
+}
 h3, h4 {
   font-family: 'Source Sans Pro', sans-serif;
   color: ghostwhite;
@@ -45,7 +50,9 @@ a:hover {
 .contactformat {
   margin-left: 10px;
 }
-
+.fa {
+  padding: 20px;
+}
 #pacman {
   top: 50px;
   max-width:100%;
@@ -85,6 +92,12 @@ a:hover {
 #contactdetails {
   float: left;
   padding: 0 20px;
+}
+
+#contacticons {
+  position: absolute;
+  top: 250px;
+  left: -10px;
 }
 
 #navbar {
@@ -171,6 +184,9 @@ a:hover {
   #aboutme {
     margin-left: 20px;
     padding: 0 20px;
+  }
+  #contactme {
+    margin-left: 10px;
   }
   #aboutlink{
     left: 0;
