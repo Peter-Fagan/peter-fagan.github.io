@@ -1,6 +1,6 @@
 body {
   background-color: black;
-  overflow: hidden;
+  /*overflow: hidden;*/
 }
 
 h1 {
@@ -72,7 +72,6 @@ a:hover {
 
 #portrait {
   position: absolute;
-  top: 50px;
   margin-left: 50px;
   width: 150px;
   border-radius: 25%;
@@ -80,6 +79,7 @@ a:hover {
 
 #aboutme {
   margin-left: 250px;
+  max-width: 50%;
 }
 
 #contactme {
@@ -90,6 +90,7 @@ a:hover {
 }
 
 #contactdetails {
+  position: relative;
   float: left;
   padding: 0 20px;
 }
@@ -186,7 +187,14 @@ a:hover {
     padding: 0 20px;
   }
   #contactme {
+    top: -15vh;
     margin-left: 10px;
+  }
+  #contactdetails{
+    top: -15vh;
+  }
+  #contacticons {
+    max-width: 300px;
   }
   #aboutlink{
     left: 0;
