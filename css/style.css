@@ -101,6 +101,28 @@ a:hover {
   left: -10px;
 }
 
+.pacmanproject {
+  left: 25px;
+  float: left;
+  padding: 10px 20px;
+  width: 350px;
+}
+.amiright {
+  float: left;
+  padding: 10px 20px;
+  width: 350px;
+}
+.chargen {
+  float: left;
+  padding: 10px 20px;
+  width: 350px;
+}
+.mazegen {
+  float: left;
+  padding: 10px 20px;
+  width: 350px;
+}
+
 #navbar {
   position: absolute;
   top: 8px;
