@@ -1,6 +1,5 @@
 body {
   background-color: black;
-  /*overflow: hidden;*/
 }
 
 h1 {
@@ -29,10 +28,15 @@ h3, h4 {
 p {
   font-family: 'Source Sans Pro', sans-serif;
   color: ghostwhite;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  line-height: 1.5em;
+  margin-bottom: 20px;
 }
 
 a {
   font-family: 'Source Sans Pro', sans-serif;
+  text-decoration: none;
   padding: 10px;
   color: ghostwhite;
   z-index: 50;
@@ -42,7 +46,7 @@ a:hover {
 }
 
 .container {
-  position: relative;
+  padding: 40px;
   top: 150px;
   width: 100%;
   height: 100%;
@@ -72,7 +76,9 @@ a:hover {
 
 #quote {
   position: relative;
-  top: -50px;
+  top: 150px;
+  width: 150px;
+  padding: 50px 50px;
 }
 
 #portrait {
@@ -83,8 +89,8 @@ a:hover {
 }
 
 #aboutme {
-  position: relative;
-  top: -35px;
+  position: absolute;
+  top: 50px;
   margin-left: 250px;
   max-width: 50%;
 }
@@ -96,45 +102,20 @@ a:hover {
 
 .contact-item {
   position: relative;
+  text-align: left;
 }
 
 .contact-detail {
   position: absolute;
   right: 20%;
 }
-/*
-#contactme {
-  float: left;
-  position: relative;
-  left: 50px;
-  padding: 0 20px;
-  max-width: 340px;
-}
-
-#contactdetails {
-  position: relative;
-  float: left;
-  left: 50px;
-  padding: 0 20px;
-}*/
-
-/*#contacticons {
-  position: absolute;
-  top: 250px;
-  left: 40px;
-}*/
 
 .pacmanproject {
-  left: 25px;
   float: left;
   width: 350px;
   padding: 0 40px;
 }
 .projectimage {
-  width: 350px;
-}
-.charactergenproject {
-  float: left;
   width: 350px;
 }
 .amiright {
@@ -233,7 +214,15 @@ a:hover {
     margin-left: auto;
     margin-right: auto;
   }
+  #quote {
+    position: relative;
+    top: 0;
+    margin: 0 auto;
+    width: 250px;
+  }
   #aboutme {
+    position: relative;
+    top: 0;
     margin-left: 20px;
     padding: 0 20px;
     max-width: 300px;
@@ -244,6 +233,18 @@ a:hover {
   }
   #contacticons {
     max-width: 300px;
+  }
+  .pacmanproject {
+    padding: 0;
+  }
+  .amiright {
+    padding: 0;
+  }
+  .chargen {
+    padding: 0;
+  }
+  .mazegen {
+    padding: 0;
   }
   .projectimage {
     max-width: 300px;
