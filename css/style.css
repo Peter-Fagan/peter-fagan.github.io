@@ -70,6 +70,11 @@ a:hover {
   z-index: 100;
 }
 
+#quote {
+  position: relative;
+  top: -50px;
+}
+
 #portrait {
   position: absolute;
   margin-left: 50px;
@@ -78,13 +83,30 @@ a:hover {
 }
 
 #aboutme {
+  position: relative;
+  top: -35px;
   margin-left: 250px;
   max-width: 50%;
 }
 
+.contact-box {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.contact-item {
+  position: relative;
+}
+
+.contact-detail {
+  position: absolute;
+  right: 20%;
+}
+/*
 #contactme {
   float: left;
   position: relative;
+  left: 50px;
   padding: 0 20px;
   max-width: 340px;
 }
@@ -92,35 +114,43 @@ a:hover {
 #contactdetails {
   position: relative;
   float: left;
+  left: 50px;
   padding: 0 20px;
-}
+}*/
 
-#contacticons {
+/*#contacticons {
   position: absolute;
   top: 250px;
-  left: -10px;
-}
+  left: 40px;
+}*/
 
 .pacmanproject {
   left: 25px;
   float: left;
-  padding: 10px 20px;
+  width: 350px;
+  padding: 0 40px;
+}
+.projectimage {
+  width: 350px;
+}
+.charactergenproject {
+  float: left;
   width: 350px;
 }
 .amiright {
   float: left;
-  padding: 10px 20px;
   width: 350px;
+  padding: 0 40px;
 }
 .chargen {
   float: left;
-  padding: 10px 20px;
   width: 350px;
+  padding: 0 40px;
 }
 .mazegen {
   float: left;
-  padding: 10px 20px;
   width: 350px;
+  padding: 0 40px;
 }
 
 #navbar {
@@ -199,7 +229,6 @@ a:hover {
   }
   #portrait {
     position: relative;
-    top: -50px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -207,16 +236,18 @@ a:hover {
   #aboutme {
     margin-left: 20px;
     padding: 0 20px;
+    max-width: 300px;
   }
-  #contactme {
-    top: -15vh;
-    margin-left: 10px;
-  }
-  #contactdetails{
-    top: -15vh;
+  .contact-detail {
+    position: relative;
+    left: 10%;
   }
   #contacticons {
     max-width: 300px;
+  }
+  .projectimage {
+    max-width: 300px;
+    padding: 0;
   }
   #aboutlink{
     left: 0;
