@@ -109,7 +109,9 @@ a:hover {
   position: absolute;
   right: 20%;
 }
-
+.projectlayout {
+  max-width: 900px
+}
 .pacmanproject {
   float: left;
   width: 350px;
