@@ -39,6 +39,7 @@ a {
   text-decoration: none;
   padding: 10px;
   color: ghostwhite;
+  transition: all 0.75s ease;
   z-index: 50;
 }
 a:hover {
@@ -50,7 +51,9 @@ a:hover {
   top: 150px;
   width: 100%;
   height: 100%;
+  box-sizing: border-box;
 }
+
 .contactformat {
   margin-left: 10px;
 }
@@ -96,8 +99,12 @@ a:hover {
 }
 
 .contact-box {
-  max-width: 600px;
+  max-width: 500px;
   margin: 0 auto;
+}
+
+.contact-box h2 {
+  text-align:center;
 }
 
 .contact-item {
@@ -107,11 +114,17 @@ a:hover {
 
 .contact-detail {
   position: absolute;
-  right: 20%;
+  right: 0;
 }
+
+#contacticons {
+  text-align:center
+}
+
 .projectlayout {
-  max-width: 900px
+  max-width: 960px;
 }
+
 .pacmanproject {
   float: left;
   width: 350px;
@@ -235,6 +248,7 @@ a:hover {
   }
   #contacticons {
     max-width: 300px;
+    text-align:center
   }
   .pacmanproject {
     padding: 0;
